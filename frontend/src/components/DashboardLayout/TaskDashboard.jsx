@@ -1,4 +1,5 @@
 import "./TaskDashboard.css";
+import "../../pages/Task/AddTask.css";
 import { useState } from "react";
 import API from "../../services/api";
 import { toast } from "react-toastify";
