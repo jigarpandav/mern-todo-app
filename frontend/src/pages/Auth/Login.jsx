@@ -35,7 +35,7 @@ const Login = () => {
         localStorage.setItem("user_id", res.data.user_id);
         localStorage.setItem("token", res.data.token);
 
-        toast.success(res.data.message || "Login successful");
+        toast.success("Login successful");
 
         navigate("/dashboard");
       }

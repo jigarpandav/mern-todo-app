@@ -44,9 +44,7 @@ const Register = () => {
       });
 
       if (res.status === 201) {
-        toast.success(
-          res.data.message || "Account created successfully"
-        );
+        toast.success("Account created successfully");
 
         navigate("/");
       }

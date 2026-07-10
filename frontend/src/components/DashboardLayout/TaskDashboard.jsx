@@ -62,7 +62,7 @@ const handleOpenUpdateTask = (task) => {
       }
     } catch (err) {
       console.log(err);
-      toast.error("Error adding task");
+      toast.error("Failed to add task");
     }
   };
 
