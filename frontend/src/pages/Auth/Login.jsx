@@ -92,9 +92,7 @@ const Login = () => {
               <div className="login-password-label">
                 <label htmlFor="password">Password</label>
 
-                <Link to="/forgot-password">
-                  Forgot password?
-                </Link>
+                
               </div>
 
               <div className="login-input-wrapper">
